@@ -9,7 +9,7 @@ ul, li {
 }
  /* Logo and menu  */
 header{
-    background-image: url(/img/5.jpg);
+    background-image: url(../img/5.jpg)
 }
 .menu{
     display: flex;
