@@ -2,6 +2,12 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.h3{
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+}
 ul, li {
     display: block;
     margin: 0;
@@ -9,7 +15,7 @@ ul, li {
 }
  /* Logo and menu  */
 header{
-    background-image: url(../img/5.jpg)
+    background-image: url(../img/new.jpg)
 }
 .menu{
     display: flex;
@@ -59,13 +65,46 @@ header{
     border: 2px solid #ffff;
 }
 .button_full{
-    background: #00897b;
-    border: 2px solid #00897b;
+    background: #f58c5c;
+    border: 2px solid #f58c5c;
 }
 .button_empty:hover{
     background: #ffff;
-    color: #00897b;
+    color: #f58c5c;
 }
 .button_full:hover{
     background: transparent;
+}
+.about{
+    padding-top: 120px;
+    padding-bottom: 125px;   
+}
+.about__text{
+    margin-top: 20px;
+    margin-bottom: 110px;
+}
+.about__h3{
+    font-weight: 600;
+}
+.carousel{
+    background-image: url(../img/5.jpg);
+}
+.card-header{
+    background: #78dfe2;
+}
+.modal-w{
+    padding: 10px 0;
+    background: #78dfe2;
+}
+.modal{
+    color: #000000;
+}
+.bg-gray{
+    background: #ccc9c9;
+}
+.margin-t{
+    margin-top: 100px;
+}
+.img-shadow:hover{
+    box-shadow: 0px 0px 25px 10px #886399;
 }
