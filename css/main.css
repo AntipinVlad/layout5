@@ -13,6 +13,10 @@ ul, li {
     margin: 0;
     padding: 0; 
 }
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+ }
  /* Logo and menu  */
 header{
     background-image: url(../img/new.jpg)
@@ -83,14 +87,36 @@ header{
     margin-top: 20px;
     margin-bottom: 110px;
 }
+.btn-primary{
+    color: #ffffff;
+    background: #fe6332;
+    border: 1px solid #fe6332;
+}
+.btn-primary:hover{
+    color: #fe6332;
+    background-color: #ffffff;
+    border: 1px solid #fe6332;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #ffffff;
+    background-color: #fe6332;
+    border-color: #fe6332;
+}
 .about__h3{
     font-weight: 600;
 }
 .carousel{
-    background-image: url(../img/5.jpg);
+    background-image: url(../img/new.jpg);
 }
 .card-header{
-    background: #78dfe2;
+    background: #b9a0c8;
+}
+.back-card{
+    background: #6e457a;
+}
+.bg-info {
+    background-color: #7a4b86!important;
 }
 .modal-w{
     padding: 10px 0;
@@ -107,4 +133,17 @@ header{
 }
 .img-shadow:hover{
     box-shadow: 0px 0px 25px 10px #886399;
+}
+.btn-outline-primary{
+    color: #fe6332;
+    border: 1px solid #fe6332;
+}
+.btn-outline-primary:hover{
+    background-color: #fe6332;
+    border: 1px solid #fe6332;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fe6332;
+    background-color: #ffffff;
+    border-color: #fe6332;
 }
